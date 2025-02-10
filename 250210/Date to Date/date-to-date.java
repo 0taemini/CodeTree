@@ -17,13 +17,13 @@ public class Main {
 
         int m1Cnt = d1;
         int m2Cnt = d2;
-        for(int i = 0; i<m1; i++){
+        for(int i = 0; i<m1-1; i++){
             m1Cnt += months[i];
         }
-        for(int i = 0; i<m2; i++){
+        for(int i = 0; i<m2-1; i++){
             m2Cnt += months[i];
         }
-        System.out.println(m2Cnt-m1Cnt);
+        System.out.println(m2Cnt-m1Cnt+1);
 
 
     }
