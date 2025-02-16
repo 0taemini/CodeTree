@@ -8,11 +8,11 @@ public class Main {
         StringTokenizer st;
 
         int n = Integer.parseInt(br.readLine());
-        int[] result = new int[200];
+        int[] result = new int[201];
         for(int i = 0; i<n; i++){
             st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parseInt(st.nextToken());
+            int x = Integer.parseInt(st.nextToken()) + 100;
+            int y = Integer.parseInt(st.nextToken()) + 100;
             for(int j = x; j<y; j++){
                 result[j] +=1;
             }
