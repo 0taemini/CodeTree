@@ -10,7 +10,7 @@ public class Main {
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
 
-        int[] map = new int[n];
+        int[] map = new int[n+1];
 
         for(int i = 0; i<k; i++){
             st = new StringTokenizer(br.readLine());
